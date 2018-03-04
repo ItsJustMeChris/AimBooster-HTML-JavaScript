@@ -1,0 +1,72 @@
+#aimmap {
+    width:500px;
+    height:500px;
+    background: #333;
+}
+
+.target {
+    width:50px;
+    height:50px;
+    background: #fff;
+    border-radius: 100%;
+    background: orange;
+    -webkit-animation:grow 2s infinite;
+    animation-iteration-count: 1;
+
+}
+
+.click {
+    width:10px;
+    height:10px;
+    background: #fff;
+    border-radius: 100%;
+    background: red;
+}
+
+
+
+@-webkit-keyframes grow {
+    0% {
+        -webkit-transform: scale( 0 );-moz-transform: scale( 0 );-o-transform: scale( 0 );-ms-transform: scale( 0 );transform: scale( 0 );
+    }
+
+    10% {
+        -webkit-transform: scale( 0.1 );-moz-transform: scale( 0.1 );-o-transform: scale( 0.1 );-ms-transform: scale( 0.1 );transform: scale( 0.1 );
+    }
+
+    20% {
+        -webkit-transform: scale( .2 );-moz-transform: scale( .2 );-o-transform: scale( 0.2 );-ms-transform: scale( 0.2 );transform: scale( 0.2 );
+    }
+
+    30% {
+        -webkit-transform: scale( .3 );-moz-transform: scale( .3 );-o-transform: scale( .3 );-ms-transform: scale( .3 );transform: scale( .3 );
+    }
+
+    40% {
+        -webkit-transform: scale( 0.4 );-moz-transform: scale( 0.4 );-o-transform: scale( 0.4 );-ms-transform: scale( 0.4 );transform: scale( 0.4 );
+    }
+
+    50% {
+        -webkit-transform: scale( .5 );-moz-transform: scale( .5 );-o-transform: scale( 0.5 );-ms-transform: scale( 0.5 );transform: scale( 0.5 );
+    }
+
+    60% {
+        -webkit-transform: scale( 0.6 );-moz-transform: scale( 0.6 );-o-transform: scale( 0.6 );-ms-transform: scale( 0.6 );transform: scale( 0.6 );
+    }
+
+    70% {
+        -webkit-transform: scale( .7 );-moz-transform: scale( .7 );-o-transform: scale( 0.7 );-ms-transform: scale( 0.7 );transform: scale( 0.7 );
+    }
+
+    80% {
+        -webkit-transform: scale( .8 );-moz-transform: scale( .8 );-o-transform: scale( .8 );-ms-transform: scale( .8 );transform: scale( .8 );
+    }
+
+    90% {
+        -webkit-transform: scale( 0.9 );-moz-transform: scale( 0.9 );-o-transform: scale( 0.9 );-ms-transform: scale( 0.9 );transform: scale( 0.9 );
+    }
+
+    100% {
+        -webkit-transform: scale(1);-moz-transform: scale( 1);-o-transform: scale1);-ms-transform: scale(  1);transform: scale(  1);
+    }
+}
